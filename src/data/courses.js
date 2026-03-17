@@ -1,0 +1,38 @@
+export const courses = [
+  {
+    title: '拉坯入门体验',
+    duration: '2小时',
+    price: '¥198',
+    level: '零基础',
+    desc: '学习基础拉坯技法，亲手在辘轳上塑造属于你的第一件陶器。作品烧制后邮寄到家。',
+    image: 'https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?w=400&h=550&fit=crop',
+    popular: false,
+  },
+  {
+    title: '手捏陶艺课',
+    duration: '3小时',
+    price: '¥268',
+    level: '零基础',
+    desc: '用最原始的手捏方式塑造器物，感受泥土在指尖变化的温度与力量。含釉色选择。',
+    image: 'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=400&h=550&fit=crop',
+    popular: true,
+  },
+  {
+    title: '釉下彩绘课',
+    duration: '2.5小时',
+    price: '¥238',
+    level: '进阶',
+    desc: '在素坯上用青花料绘制图案，体验传统釉下彩绘的东方韵味。提供素坯与画笔。',
+    image: 'https://images.unsplash.com/photo-1610701596007-11502861dcfa?w=400&h=550&fit=crop',
+    popular: false,
+  },
+  {
+    title: '柴烧研修班',
+    duration: '2天',
+    price: '¥1680',
+    level: '高阶',
+    desc: '深入体验传统柴窑烧制全过程：劈柴、装窑、投柴、守窑、开窑。名额极其有限。',
+    image: 'https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?w=400&h=550&fit=crop',
+    popular: false,
+  },
+]
